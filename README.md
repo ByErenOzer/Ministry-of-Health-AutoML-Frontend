@@ -9,13 +9,13 @@
   <img src="https://img.shields.io/badge/TypeScript-5.0-3178C6" alt="TypeScript">
 </div>
 
-## 🎥 Video
+
+## 🎬 Video
 
 <div align="center">
-  <a href="https://github.com/user-attachments/assets/432a6f03-ca45-436d-b57b-8d17c06ed2ad" target="_blank">
-    <img src="https://img.shields.io/badge/🎬-Demo%20Video-red?style=for-the-badge" alt="Demo Video Badge" width="200">
-  </a>
-  <p>⚠️ ADD VIDEO LINK HERE - You can add the video link from the issue ⚠️</p>
+  <h3>📹 Ministry of Health Tweet Analysis Platform </h3>
+  
+  https://github.com/user-attachments/assets/432a6f03-ca45-436d-b57b-8d17c06ed2ad
 </div>
 
 ## 🚀 Key Features
@@ -102,16 +102,6 @@ graph TD
    - API Documentation: http://localhost:8000/docs
    - RabbitMQ Management Interface: http://localhost:15672
 
-## 📊 Screenshots
-
-<div align="center">
-  <img src="https://placehold.co/600x400/3178C6/FFFFFF/png?text=Dashboard" alt="Dashboard" width="400">
-  <img src="https://placehold.co/600x400/009688/FFFFFF/png?text=Model+Training" alt="Model Training" width="400">
-  <br>
-  <img src="https://placehold.co/600x400/2496ED/FFFFFF/png?text=Results" alt="Results" width="400">
-  <img src="https://placehold.co/600x400/3776AB/FFFFFF/png?text=Monitoring" alt="Monitoring" width="400">
-</div>
-
 ## 🔍 Use Cases
 
 ### 1. Medical Image Analysis
@@ -133,8 +123,12 @@ graph TD
 
 This project is licensed by the Ministry of Health. For more information, please refer to the License file in the repository.
 
-## 📞 Contact
+## 📬 Contact
 
-Eren Özer - [@ByErenOzer](https://github.com/ByErenOzer)
+<div align="center">
+  
+[![GitHub](https://img.shields.io/badge/GitHub-ByErenOzer-181717?style=for-the-badge&logo=github)](https://github.com/ByErenOzer)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ErenOzer-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/eren-%C3%B6zer/)
 
-Project Link: [https://github.com/ByErenOzer/Ministry-of-Health-AutoML-Frontend](https://github.com/ByErenOzer/Ministry-of-Health-AutoML-Frontend)
+</div>
+
