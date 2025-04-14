@@ -1,7 +1,7 @@
-# 🏥 Sağlık Bakanlığı AutoML Platformu
+# 🏥 Ministry of Health AutoML Platform
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Sağlık%20Bakanlığı-AutoML-2ea44f" alt="Sağlık Bakanlığı - AutoML">
+  <img src="https://img.shields.io/badge/Ministry%20of%20Health-AutoML-2ea44f" alt="Ministry of Health - AutoML">
   <img src="https://img.shields.io/badge/Next.js-13.5-black" alt="Next.js">
   <img src="https://img.shields.io/badge/FastAPI-0.105.0-009688" alt="FastAPI">
   <img src="https://img.shields.io/badge/Docker-Ready-2496ED" alt="Docker">
@@ -9,47 +9,39 @@
   <img src="https://img.shields.io/badge/TypeScript-5.0-3178C6" alt="TypeScript">
 </div>
 
-<div align="center">
-  <h3>Sağlık verilerinin analizi ve modellenmesi için uçtan uca yapay zeka platformu</h3>
-  <p>Machine Learning, Deep Learning ve Large Language Models ile sağlık verileri üzerinde akıllı analizler</p>
-</div>
-
-<p align="center">
-  <img src="https://github.com/ByErenOzer/Ministry-of-Health-AutoML-Frontend/assets/your-asset-folder/screenshot.jpg" alt="Platform Ekran Görüntüsü" width="900">
-</p>
-
-## 🚀 Temel Özellikler
-
-- **🧠 3 Farklı AI Teknolojisi Entegrasyonu**
-  - **Machine Learning**: Sınıflandırma, regresyon, kümeleme ve anomali tespiti
-  - **Deep Learning**: Görüntü sınıflandırma, nesne tespiti, segmentasyon
-  - **Large Language Models**: Metin sınıflandırma, özetleme, soru cevaplama
-
-- **📊 Gelişmiş Veri Ön İşleme ve Görselleştirme**
-  - Özel sağlık verisi normalizasyon seçenekleri
-  - Veri augmentasyon teknikleri
-  - Dinamik veri görselleştirme araçları
-
-- **⚙️ Model Eğitim ve Performans İzleme**
-  - Gerçek zamanlı eğitim metriklerini izleme
-  - Dağıtılmış model eğitimi
-  - Hyperparameter optimizasyonu
-
-- **🔒 Sağlık Verileri için Güvenli Altyapı**
-  - Veriye özel güvenlik protokolleri
-  - Role dayalı erişim kontrolü
-  - Veri şifreleme
-
 ## 🎥 Video
 
 <div align="center">
   <a href="https://github.com/user-attachments/assets/432a6f03-ca45-436d-b57b-8d17c06ed2ad" target="_blank">
     <img src="https://img.shields.io/badge/🎬-Demo%20Video-red?style=for-the-badge" alt="Demo Video Badge" width="200">
   </a>
-  <p>⚠️ İLGİLİ VİDEO LİNKİNİ BURAYA EKLEYİN - Video linkini issue'dan alarak buraya ekleyebilirsiniz ⚠️</p>
+  <p>⚠️ ADD VIDEO LINK HERE - You can add the video link from the issue ⚠️</p>
 </div>
 
-## 🏗️ Sistem Mimarisi
+## 🚀 Key Features
+
+- **🧠 Integration of 3 Different AI Technologies**
+  - **Machine Learning**: Classification, regression, clustering, and anomaly detection
+  - **Deep Learning**: Image classification, object detection, segmentation
+  - **Large Language Models**: Text classification, summarization, question answering
+
+- **📊 Advanced Data Preprocessing and Visualization**
+  - Custom healthcare data normalization options
+  - Data augmentation techniques
+  - Dynamic data visualization tools
+
+- **⚙️ Model Training and Performance Monitoring**
+  - Real-time training metrics monitoring
+  - Distributed model training
+  - Hyperparameter optimization
+
+- **🔒 Secure Infrastructure for Healthcare Data**
+  - Data-specific security protocols
+  - Role-based access control
+  - Data encryption
+
+
+## 🏗️ System Architecture
 
 ```mermaid
 graph TD
@@ -57,91 +49,92 @@ graph TD
     B --> C[PostgreSQL]
     B --> D[RabbitMQ]
     D --> E[Celery Workers]
-    E --> F[Model Eğitimi/İnference]
+    E --> F[Model Training/Inference]
     B --> G[Redis]
     G --> E
 ```
 
-## 💻 Teknoloji Yığını
+## 💻 Technology Stack
 
 ### Frontend
-- **Next.js 13**: Server-side rendering ve statik sayfa üretimi
-- **TypeScript**: Tip güvenliği
-- **Tailwind CSS**: Hızlı ve ölçeklenebilir CSS
-- **shadcn/ui**: Modern ve özelleştirilebilir UI bileşenleri
-- **Framer Motion**: Pürüzsüz animasyonlar
+- **Next.js 13**: Server-side rendering and static page generation
+- **TypeScript**: Type safety
+- **Tailwind CSS**: Fast and scalable CSS
+- **shadcn/ui**: Modern and customizable UI components
+- **Framer Motion**: Smooth animations
 
 ### Backend
-- **FastAPI**: Yüksek performanslı API framework'ü
+- **FastAPI**: High-performance API framework
 - **SQLAlchemy**: ORM (Object Relational Mapping)
-- **Celery**: Asenkron görev yönetimi
-- **PyTorch/TensorFlow**: Deep Learning modelleri
-- **scikit-learn**: Machine Learning algoritmaları
+- **Celery**: Asynchronous task management
+- **PyTorch/TensorFlow**: Deep Learning models
+- **scikit-learn**: Machine Learning algorithms
 
-### Altyapı
-- **Docker & Docker Compose**: Konteynerleştirme
-- **Nginx**: Reverse proxy ve yük dengeleme
-- **PostgreSQL**: Ana veritabanı
-- **Redis**: Önbellek ve message broker
+### Infrastructure
+- **Docker & Docker Compose**: Containerization
+- **Nginx**: Reverse proxy and load balancing
+- **PostgreSQL**: Main database
+- **Redis**: Cache and message broker
 - **RabbitMQ**: Message queue
 
-## 🚀 Başlangıç
+## 🚀 Getting Started
 
-### Gereksinimler
-- Docker ve Docker Compose
+### Requirements
+- Docker and Docker Compose
 - Git
 
-### Kurulum Adımları
+### Installation Steps
 
-1. **Repoyu klonlayın**
+1. **Clone the repository**
    ```bash
    git clone https://github.com/ByErenOzer/Ministry-of-Health-AutoML-Frontend.git
    cd Ministry-of-Health-AutoML-Frontend
    ```
 
-2. **Uygulamayı Docker ile çalıştırın**
+2. **Run the application with Docker**
    ```bash
    docker-compose up -d
    ```
 
-3. **Tarayıcınızda erişin**
+3. **Access in your browser**
    - Frontend: http://localhost:3000
    - Backend API: http://localhost:8000
-   - API Dokümantasyonu: http://localhost:8000/docs
-   - RabbitMQ Yönetim Arayüzü: http://localhost:15672
+   - API Documentation: http://localhost:8000/docs
+   - RabbitMQ Management Interface: http://localhost:15672
 
-## 🔍 Kullanım Senaryoları
+## 📊 Screenshots
 
-### 1. Tıbbi Görüntü Analizi
-- MRI, CT ve X-ray görüntülerinde anomali tespiti
-- Tümör sınıflandırma ve lokalizasyonu
-- Doku segmentasyonu
+<div align="center">
+  <img src="https://placehold.co/600x400/3178C6/FFFFFF/png?text=Dashboard" alt="Dashboard" width="400">
+  <img src="https://placehold.co/600x400/009688/FFFFFF/png?text=Model+Training" alt="Model Training" width="400">
+  <br>
+  <img src="https://placehold.co/600x400/2496ED/FFFFFF/png?text=Results" alt="Results" width="400">
+  <img src="https://placehold.co/600x400/3776AB/FFFFFF/png?text=Monitoring" alt="Monitoring" width="400">
+</div>
 
-### 2. Sağlık Verisi Tahminleme
-- Hasta risk değerlendirmesi
-- Hastalık progresyon tahmini
-- İlaç etkinliği analizi
+## 🔍 Use Cases
 
-### 3. Metin Tabanlı Tıbbi Veri Analizi
-- Tıbbi notların otomatik sınıflandırılması
-- Literatür taraması ve özet çıkarma
-- Klinik karar destek sistemleri
+### 1. Medical Image Analysis
+- Anomaly detection in MRI, CT, and X-ray images
+- Tumor classification and localization
+- Tissue segmentation
 
-## 🛣️ Yol Haritası
+### 2. Healthcare Data Prediction
+- Patient risk assessment
+- Disease progression prediction
+- Drug efficacy analysis
 
-- [ ] **Federated Learning Entegrasyonu**: Kurumlar arası işbirlikçi öğrenme
-- [ ] **AutoML Optimizasyonu**: Otomatik model seçimi ve hiperparametre ayarlama
-- [ ] **Tıbbi Veri Görselleştirme Geliştirmeleri**: 3D görüntü analizi
-- [ ] **Çoklu Dil Desteği**: Türkçe, İngilizce ve diğer diller
-- [ ] **Mobil Uygulama**: iOS ve Android platformları için
+### 3. Text-Based Medical Data Analysis
+- Automatic classification of medical notes
+- Literature review and summarization
+- Clinical decision support systems
 
+## 📄 License
 
-## 📄 Lisans
+This project is licensed by the Ministry of Health. For more information, please refer to the License file in the repository.
 
-Bu proje T.C. Sağlık Bakanlığı tarafından lisanslanmıştır. Daha fazla bilgi için lütfen reponun License dosyasını inceleyiniz.
-
-## 📞 İletişim
+## 📞 Contact
 
 Eren Özer - [@ByErenOzer](https://github.com/ByErenOzer)
 
-Proje Linki: [https://github.com/ByErenOzer/Ministry-of-Health-AutoML-Frontend](https://github.com/ByErenOzer/Ministry-of-Health-AutoML-Frontend) 
+Project Link: [https://github.com/ByErenOzer/Ministry-of-Health-AutoML-Frontend](https://github.com/ByErenOzer/Ministry-of-Health-AutoML-Frontend)
