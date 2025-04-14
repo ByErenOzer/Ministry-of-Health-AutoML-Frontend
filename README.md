@@ -40,10 +40,10 @@
   - Role dayalı erişim kontrolü
   - Veri şifreleme
 
-## 🎥 Demo Video
+## 🎥 Video
 
 <div align="center">
-  <a href="VIDEO_URL_HERE" target="_blank">
+  <a href="https://github.com/user-attachments/assets/432a6f03-ca45-436d-b57b-8d17c06ed2ad" target="_blank">
     <img src="https://img.shields.io/badge/🎬-Demo%20Video-red?style=for-the-badge" alt="Demo Video Badge" width="200">
   </a>
   <p>⚠️ İLGİLİ VİDEO LİNKİNİ BURAYA EKLEYİN - Video linkini issue'dan alarak buraya ekleyebilirsiniz ⚠️</p>
@@ -110,16 +110,6 @@ graph TD
    - API Dokümantasyonu: http://localhost:8000/docs
    - RabbitMQ Yönetim Arayüzü: http://localhost:15672
 
-## 📊 Ekran Görüntüleri
-
-<div align="center">
-  <img src="https://github.com/ByErenOzer/Ministry-of-Health-AutoML-Frontend/assets/your-asset-folder/dashboard.jpg" alt="Dashboard" width="400">
-  <img src="https://github.com/ByErenOzer/Ministry-of-Health-AutoML-Frontend/assets/your-asset-folder/training.jpg" alt="Model Eğitimi" width="400">
-  <br>
-  <img src="https://github.com/ByErenOzer/Ministry-of-Health-AutoML-Frontend/assets/your-asset-folder/results.jpg" alt="Sonuçlar" width="400">
-  <img src="https://github.com/ByErenOzer/Ministry-of-Health-AutoML-Frontend/assets/your-asset-folder/monitoring.jpg" alt="İzleme" width="400">
-</div>
-
 ## 🔍 Kullanım Senaryoları
 
 ### 1. Tıbbi Görüntü Analizi
@@ -145,15 +135,6 @@ graph TD
 - [ ] **Çoklu Dil Desteği**: Türkçe, İngilizce ve diğer diller
 - [ ] **Mobil Uygulama**: iOS ve Android platformları için
 
-## 👥 Katkıda Bulunma
-
-Katkılarınızı bekliyoruz! Aşağıdaki adımları izleyerek projeye katkıda bulunabilirsiniz:
-
-1. Bu repoyu forklayın
-2. Feature branch'i oluşturun (`git checkout -b feature/amazing-feature`)
-3. Değişikliklerinizi commit edin (`git commit -m 'Add some amazing feature'`)
-4. Branch'inize push edin (`git push origin feature/amazing-feature`)
-5. Pull Request açın
 
 ## 📄 Lisans
 
