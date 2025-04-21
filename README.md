@@ -119,10 +119,6 @@ graph TD
 - Literature review and summarization
 - Clinical decision support systems
 
-## 📄 License
-
-This project is licensed by the Ministry of Health. For more information, please refer to the License file in the repository.
-
 ## 📬 Contact
 
 <div align="center">
